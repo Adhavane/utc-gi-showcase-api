@@ -2,13 +2,13 @@
   {
     "title": "Project 1",
     "description": "<p>This is an awesome project!</p>",
-    "image": "https://example.com/image1.png",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "imageLink": "https://example.com/image1.png",
+    "videoLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
   },
   {
     "title": "Project 2",
     "description": "<p>This is another great project!</p>",
-    "image": "https://example.com/image2.png",
-    "video": "https://www.youtube.com/embed/oHg5SJYRHA0"
+    "imageLink": "https://example.com/image2.png",
+    "videoLink": "https://www.youtube.com/embed/oHg5SJYRHA0"
   }
 ]
