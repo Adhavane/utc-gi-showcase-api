@@ -19,17 +19,19 @@
       {
         "subtitle" : "Les Capteurs du TurtleBot",
         "text" : "<p> Les <em>robots</em> comme notre TurtleBot utilisent divers <strong>capteurs</strong> pour fonctionner et se repérer dans l'espace. Ces capteurs incluent, entre autres, des <strong>lidars</strong>, des <strong>sonars</strong>, des <strong>caméras</strong>, et des <strong>roues crantées</strong>. Le lidar permet de mesurer les distances aux objets en envoyant des impulsions laser et en mesurant le temps de retour du signal. La caméra capture des images en temps réel, tandis que le sonar utilise des ondes sonores pour détecter des objets autour du robot. Ces capteurs travaillent ensemble pour essayer de fournir une vision complète de l'environnement du robot.</p>",
-        "mediaLink": "https://kilaposhi.github.io/GI_JSON/images/turtleBot.png"
+        "imageLink": "https://kilaposhi.github.io/GI_JSON/images/turtleBot.png",
+        "legend" : "TurtleBot utilisé par les étudiants"
       },
       {
         "subtitle": "Détection des Formes",
         "text":"<p>La détection des formes est réalisée en <strong>Python</strong>. Une image est composée de <strong>pixels</strong>, chacun ayant une valeur numérique représentant sa couleur. Pour chaque image de la vidéo capturée par la caméra du TurtleBot, nous filtrons les pixels selon leurs valeurs. Les pixels qui répondent aux critères sont affichés en blanc, tandis que les autres sont en noir, créant une image <em>binarisée</em>. Cette méthode permet de <strong>détecter des formes</strong> comme des cercles ou des rectangles sur l'image binarisée.</p>",
-        "mediaLink" : "https://kilaposhi.github.io/GI_JSON/images/binImage.png"
+        "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/binImage.png",
+        "legend" : "Image binarisée d'un panneau cédez le passage"
       },
       {
         "subtitle": "Combinaison de la Détection de Formes et du Lidar",
         "text":"<p> Pour conclure, notre système peut détecter des formes spécifiques via les caméras du robot. Cependant, pour déterminer la <strong>taille réelle</strong> de l'objet et sa <strong>distance</strong>, nous utilisons un <strong>Lidar</strong>. Le Lidar mesure la distance en envoyant des impulsions laser et en mesurant le temps nécessaire pour que le signal revienne. Cela permet au TurtleBot de comprendre non seulement quelles formes il voit, mais aussi à quelle distance elles se trouvent. Voici un exemple de détection de panneaux de différentes tailles, où le robot utilise la caméra pour identifier la forme et le Lidar pour mesurer la distance.</p>",
-        "mediaLink": ""
+        "videoLink": ""
       }
     ],
     "conclusion" : "<p> Les méthodes de détection de formes et de mesure de distance que nous avons utilisées pour ce projet sont également employées dans des domaines beaucoup plus complexes. Par exemple, les <strong>voitures autonomes</strong> utilisent des caméras et des lidars pour naviguer en toute sécurité dans la circulation, détecter les obstacles et comprendre leur environnement en temps réel. Ces technologies sont également cruciales dans des domaines tels que la <strong>robotique industrielle</strong>, où les robots doivent interagir précisément avec les objets, et dans la <strong>réalité augmentée</strong>, où la compréhension de l'espace et des formes permet des expériences immersives. Ce projet est donc une introduction passionnante à des technologies de pointe qui transforment notre monde.</p>"
