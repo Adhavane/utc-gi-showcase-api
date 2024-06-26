@@ -1,13 +1,13 @@
 [
   {
     "title": "Project 1",
-    "description": "<p>This is an awesome project!</p>",
+    "introduction": "<p>This is an awesome project!</p>",
     "imageLink": "https://kilaposhi.github.io/GI_JSON/i8.jpg",
     "videoLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
   },
   {
     "title": "Project 2",
-    "description": "<p>This is another great project!</p>",
+    "introduction": "<p>This is another great project!</p>",
     "imageLink": "https://kilaposhi.github.io/GI_JSON/i8.jpg",
     "videoLink": "https://www.youtube.com/embed/oHg5SJYRHA0"
   },
