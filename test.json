@@ -14,7 +14,7 @@
   {
     "title": "Détection de Formes par un Robot",
     "introduction" : "Les étudiants de la filière INES ont développé un système de détection de formes utilisant un robot TurtleBot équipé de divers capteurs.",
-    "imageLink": "",
+    "imageLink": "https://kilaposhi.github.io/GI_JSON/images/sy31Pres.png",
     "presentations" : [
       {
         "subtitle" : "Les Capteurs du TurtleBot",
