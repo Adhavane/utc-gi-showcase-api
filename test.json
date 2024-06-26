@@ -3,13 +3,13 @@
     "title": "Project 1",
     "introduction": "<p>This is an awesome project!</p>",
     "imageLink": "https://kilaposhi.github.io/GI_JSON/i8.jpg",
-    "videoLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "conclusion": "LA CONCLUSION"
   },
   {
     "title": "Project 2",
     "introduction": "<p>This is another great project!</p>",
     "imageLink": "https://kilaposhi.github.io/GI_JSON/i8.jpg",
-    "videoLink": "https://www.youtube.com/embed/oHg5SJYRHA0"
+    "conclusion": "LA CONCLUSION"
   },
   {
     "title": "Détection de Formes par un Robot",
