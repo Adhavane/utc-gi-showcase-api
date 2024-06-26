@@ -31,7 +31,8 @@
       {
         "subtitle": "Combinaison de la Détection de Formes et du Lidar",
         "text":"<p> Pour conclure, notre système peut détecter des formes spécifiques via les caméras du robot. Cependant, pour déterminer la <strong>taille réelle</strong> de l'objet et sa <strong>distance</strong>, nous utilisons un <strong>Lidar</strong>. Le Lidar mesure la distance en envoyant des impulsions laser et en mesurant le temps nécessaire pour que le signal revienne. Cela permet au TurtleBot de comprendre non seulement quelles formes il voit, mais aussi à quelle distance elles se trouvent. Voici un exemple de détection de panneaux de différentes tailles, où le robot utilise la caméra pour identifier la forme et le Lidar pour mesurer la distance.</p>",
-        "videoLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/shapeDetec.png",
+        "legend" : "Detection de formes par le robot"
       }
     ],
     "conclusion" : "<p> Les méthodes de détection de formes et de mesure de distance que nous avons utilisées pour ce projet sont également employées dans des domaines beaucoup plus complexes. Par exemple, les <strong>voitures autonomes</strong> utilisent des caméras et des lidars pour naviguer en toute sécurité dans la circulation, détecter les obstacles et comprendre leur environnement en temps réel. Ces technologies sont également cruciales dans des domaines tels que la <strong>robotique industrielle</strong>, où les robots doivent interagir précisément avec les objets, et dans la <strong>réalité augmentée</strong>, où la compréhension de l'espace et des formes permet des expériences immersives. Ce projet est donc une introduction passionnante à des technologies de pointe qui transforment notre monde.</p>"
