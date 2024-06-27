@@ -39,24 +39,24 @@
   },
   {
     "title": "Jeu du Kem's en Système Réparti",
-    "introduction" : "<p>À l'Université de Technologie de Compiègne (UTC), les étudiants réalisent divers projets pour appliquer les notions vues en cours. Les étudiants de la filière **Ingénierie des Systèmes d'Information (ISI)** ont développé, dans le cadre du cours de systèmes répartis, un jeu de **Kem's**. Ce projet permet de comprendre et d'appliquer les concepts de systèmes répartis de manière ludique et interactive.</p>",
+    "introduction" : "<p>À l'Université de Technologie de Compiègne (UTC), les étudiants réalisent divers projets pour appliquer les notions vues en cours. Les étudiants de la filière <strong>Ingénierie des Systèmes d'Information (ISI)</strong> ont développé, dans le cadre du cours de systèmes répartis, un jeu de <strong>Kem's</strong>. Ce projet permet de comprendre et d'appliquer les concepts de systèmes répartis de manière ludique et interactive.</p>",
     "imageLink": "https://kilaposhi.github.io/GI_JSON/images/kemsBanner.png",
     "presentations" : [
       {
         "subtitle" : "Introduction aux Systèmes Répartis",
-        "text" : "<p>Une application d'un **système réparti** peut être vulgarisée comme un algorithme qui fonctionne sur plusieurs sites séparés géographiquement mais communiquant entre eux. Imaginez les armées romaines sur un front : pour que les différentes légions puissent fonctionner efficacement, elles doivent communiquer pour transmettre les ordres, demander des renforts et connaître l'état des troupes. De la même manière, un système réparti permet à plusieurs ordinateurs de collaborer pour accomplir une tâche commune tout en étant éloignés les uns des autres.</p> ",
+        "text" : "<p>Une application d'un <strong>système réparti</strong> peut être vulgarisée comme un algorithme qui fonctionne sur plusieurs sites séparés géographiquement mais communiquant entre eux. Imaginez les armées romaines sur un front : pour que les différentes légions puissent fonctionner efficacement, elles doivent communiquer pour transmettre les ordres, demander des renforts et connaître l'état des troupes. De la même manière, un système réparti permet à plusieurs ordinateurs de collaborer pour accomplir une tâche commune tout en étant éloignés les uns des autres.</p> ",
         "imageLink": "https://kilaposhi.github.io/GI_JSON/images/campRomain.png",
         "legend" : "Comment gérer l'armée de César?"
       },
       {
         "subtitle": "Systèmes Répartis et Fonctionnement d'Internet",
-        "text":"<p>Les systèmes répartis sont essentiels pour le fonctionnement de **l'internet**. Chaque site web que vous visitez, chaque e-mail que vous envoyez, et chaque vidéo que vous regardez impliquent des ordinateurs qui travaillent ensemble à travers le monde. Les données sont envoyées et reçues de manière fiable grâce à des protocoles de communication sophistiqués. Cela permet à l'internet de fonctionner de manière fluide et efficace, même si les serveurs sont situés dans des endroits différents.</p>",
+        "text":"<p>Les systèmes répartis sont essentiels pour le fonctionnement de <strong>l'internet</strong>. Chaque site web que vous visitez, chaque e-mail que vous envoyez, et chaque vidéo que vous regardez impliquent des ordinateurs qui travaillent ensemble à travers le monde. Les données sont envoyées et reçues de manière fiable grâce à des protocoles de communication sophistiqués. Cela permet à l'internet de fonctionner de manière fluide et efficace, même si les serveurs sont situés dans des endroits différents.</p>",
         "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/internet.png",
         "legend" : "Réseau Internet"
       },
       {
         "subtitle": "Implémentation du Jeu du Kem's en Système Réparti",
-        "text":"<p>Nos étudiants ont mis en pratique ces notions complexes en développant un **jeu du Kem's** réparti. Le Kem's est un jeu de cartes où chaque joueur joue de manière spontanée, sans tours de jeu fixes. Une application répartie doit synchroniser les données partagées du jeu de cartes pour éviter les duplications de cartes ou les erreurs. Cela implique de gérer la communication entre les différentes instances de l'application sur plusieurs appareils, garantissant ainsi une expérience de jeu fluide et sans accroc.</p>",
+        "text":"<p>Nos étudiants ont mis en pratique ces notions complexes en développant un <strong>jeu du Kem's</strong> réparti. Le Kem's est un jeu de cartes où chaque joueur joue de manière spontanée, sans tours de jeu fixes. Une application répartie doit synchroniser les données partagées du jeu de cartes pour éviter les duplications de cartes ou les erreurs. Cela implique de gérer la communication entre les différentes instances de l'application sur plusieurs appareils, garantissant ainsi une expérience de jeu fluide et sans accroc.</p>",
         "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/kemsInterface.png",
         "legend" : "Interface web d'un joueur du Kem's"
       }
