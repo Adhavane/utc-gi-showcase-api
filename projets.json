@@ -39,7 +39,7 @@
   },
   {
     "title": "Jeu du Kem's en Système Réparti",
-    "introduction" : "<p>À l'Université de Technologie de Compiègne (UTC), les étudiants réalisent divers projets pour appliquer les notions vues en cours. Les étudiants de la filière <strong>Ingénierie des Systèmes d'Information (ISI)</strong> ont développé, dans le cadre du cours de systèmes répartis, un jeu de <strong>Kem's</strong>. Ce projet permet de comprendre et d'appliquer les concepts de systèmes répartis de manière ludique et interactive.</p>",
+    "introduction" : "<p>À l'Université de Technologie de Compiègne (UTC), les étudiants réalisent divers projets pour appliquer les notions vues en cours. Les étudiants de la filière <strong>Ingénierie des Systèmes d'Information (ISI)</strong> ont développé, dans le cadre du cours de systèmes répartis, un jeu de <strong>Kem's</strong>.</p>",
     "imageLink": "https://kilaposhi.github.io/GI_JSON/images/kemsBanner.png",
     "presentations" : [
       {
