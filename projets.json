@@ -1,84 +1,101 @@
-[
-  {
-    "title": "Détection de Formes par un Robot",
-    "introduction" : "Les étudiants de la filière INES ont développé un système de détection de formes utilisant un robot TurtleBot équipé de divers capteurs.",
-    "imageLink": "https://kilaposhi.github.io/GI_JSON/images/sy31Pres.png",
-    "presentations" : [
-      {
-        "subtitle" : "Les Capteurs du TurtleBot",
-        "text" : "<p> Les <em>robots</em> comme notre TurtleBot utilisent divers <strong>capteurs</strong> pour fonctionner et se repérer dans l'espace. Ces capteurs incluent, entre autres, des <strong>lidars</strong>, des <strong>sonars</strong>, des <strong>caméras</strong>, et des <strong>roues crantées</strong>. Le lidar permet de mesurer les distances aux objets en envoyant des impulsions laser et en mesurant le temps de retour du signal. La caméra capture des images en temps réel, tandis que le sonar utilise des ondes sonores pour détecter des objets autour du robot. Ces capteurs travaillent ensemble pour essayer de fournir une vision complète de l'environnement du robot.</p>",
-        "imageLink": "https://kilaposhi.github.io/GI_JSON/images/turtleBot.png",
-        "legend" : "TurtleBot utilisé par les étudiants"
-      },
-      {
-        "subtitle": "Détection des Formes",
-        "text":"<p>La détection des formes est réalisée en <strong>Python</strong>. Une image est composée de <strong>pixels</strong>, chacun ayant une valeur numérique représentant sa couleur. Pour chaque image de la vidéo capturée par la caméra du TurtleBot, nous filtrons les pixels selon leurs valeurs. Les pixels qui répondent aux critères sont affichés en blanc, tandis que les autres sont en noir, créant une image <em>binarisée</em>. Cette méthode permet de <strong>détecter des formes</strong> comme des cercles ou des rectangles sur l'image binarisée.</p>",
-        "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/binImage.png",
-        "legend" : "Image binarisée d'un panneau cédez le passage"
-      },
-      {
-        "subtitle": "Combinaison de la Détection de Formes et du Lidar",
-        "text":"<p> Pour conclure, notre système peut détecter des formes spécifiques via les caméras du robot. Cependant, pour déterminer la <strong>taille réelle</strong> de l'objet et sa <strong>distance</strong>, nous utilisons un <strong>Lidar</strong>. Le Lidar mesure la distance en envoyant des impulsions laser et en mesurant le temps nécessaire pour que le signal revienne. Cela permet au TurtleBot de comprendre non seulement quelles formes il voit, mais aussi à quelle distance elles se trouvent. Voici un exemple de détection de panneaux de différentes tailles, où le robot utilise la caméra pour identifier la forme et le Lidar pour mesurer la distance.</p>",
-        "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/shapeDetec.png",
-        "legend" : "Detection de formes par le robot"
-      }
-    ],
-    "conclusion" : "<p> Les méthodes de détection de formes et de mesure de distance que nous avons utilisées pour ce projet sont également employées dans des domaines beaucoup plus complexes. Par exemple, les <strong>voitures autonomes</strong> utilisent des caméras et des lidars pour naviguer en toute sécurité dans la circulation, détecter les obstacles et comprendre leur environnement en temps réel. Ces technologies sont également cruciales dans des domaines tels que la <strong>robotique industrielle</strong>, où les robots doivent interagir précisément avec les objets, et dans la <strong>réalité augmentée</strong>, où la compréhension de l'espace et des formes permet des expériences immersives. Ce projet est donc une introduction passionnante à des technologies de pointe qui transforment notre monde.</p>"
-  },
-  {
-    "title": "Jeu du Kem's en Système Réparti",
-    "introduction" : "<p>À l'Université de Technologie de Compiègne (UTC), les étudiants réalisent divers projets pour appliquer les notions vues en cours. Les étudiants de la filière <strong>Ingénierie des Systèmes d'Information (ISI)</strong> ont développé, dans le cadre du cours de systèmes répartis, un jeu de <strong>Kem's</strong>.</p>",
-    "imageLink": "https://kilaposhi.github.io/GI_JSON/images/kemsBanner.png",
-    "presentations" : [
-      {
-        "subtitle" : "Introduction aux Systèmes Répartis",
-        "text" : "<p>Une application d'un <strong>système réparti</strong> peut être vulgarisée comme un algorithme qui fonctionne sur plusieurs sites séparés géographiquement mais communiquant entre eux. Imaginez les armées romaines sur un front : pour que les différentes légions puissent fonctionner efficacement, elles doivent communiquer pour transmettre les ordres, demander des renforts et connaître l'état des troupes. De la même manière, un système réparti permet à plusieurs ordinateurs de collaborer pour accomplir une tâche commune tout en étant éloignés les uns des autres.</p> ",
-        "imageLink": "https://kilaposhi.github.io/GI_JSON/images/campRomain.png",
-        "legend" : "Comment gérer l'armée de César?"
-      },
-      {
-        "subtitle": "Systèmes Répartis et Fonctionnement d'Internet",
-        "text":"<p>Les systèmes répartis sont essentiels pour le fonctionnement de <strong>l'internet</strong>. Chaque site web que vous visitez, chaque e-mail que vous envoyez, et chaque vidéo que vous regardez impliquent des ordinateurs qui travaillent ensemble à travers le monde. Les données sont envoyées et reçues de manière fiable grâce à des protocoles de communication sophistiqués. Cela permet à l'internet de fonctionner de manière fluide et efficace, même si les serveurs sont situés dans des endroits différents.</p>",
-        "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/internet.png",
-        "legend" : "Réseau Internet"
-      },
-      {
-        "subtitle": "Implémentation du Jeu du Kem's en Système Réparti",
-        "text":"<p>Nos étudiants ont mis en pratique ces notions complexes en développant un <strong>jeu du Kem's</strong> réparti. Le Kem's est un jeu de cartes où chaque joueur joue de manière spontanée, sans tours de jeu fixes. Une application répartie doit synchroniser les données partagées du jeu de cartes pour éviter les duplications de cartes ou les erreurs. Cela implique de gérer la communication entre les différentes instances de l'application sur plusieurs appareils, garantissant ainsi une expérience de jeu fluide et sans accroc.</p>",
-        "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/kemsInterface.png",
-        "legend" : "Interface web d'un joueur du Kem's"
-      }
-    ]
-  },
-  {
-    "title" : "Simulation multi-agents",
-    "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/multiAgentsBanner.png",
-    "introduction" : "La simulation multi-agents est une approche informatique permettant de modéliser et de simuler le comportement de plusieurs agents autonomes dans un environnement virtuel. Chaque agent, doté de caractéristiques spécifiques et de capacités d'interaction, évolue selon des règles définies pour atteindre des objectifs individuels ou collectifs. L'un des principaux enjeux de cette simulation est la synchronisation des agents, garantissant que les interactions et les événements se produisent de manière cohérente dans le temps. Cela permet de reproduire des phénomènes complexes comme les dynamiques de population, les stratégies de coopération ou de compétition, et d'étudier leur évolution dans un cadre contrôlé.  ",
-    "presentations" : [
-      {
-        "subtitle" : "Système multi-agents et cycle proie-prédateur des Phidippus Regius",
-        "text" : "<p>Le Phidippus Regius, également connu sous le nom d'araignée sauteuse royale, est une espèce fascinante d'araignée reconnue pour ses couleurs vives et ses compétences impressionnantes en matière de saut.</p> <p>Dans notre système de simulation multi-agents, nous avons modélisé le cycle proie-prédateur des Phidippus Regius et des mouches. Les araignées, agissant comme prédateurs, doivent chasser et capturer des mouches pour survivre. Si une araignée ne mange pas dans un certain délai, elle finit par mourir de faim. Les mouches, quant à elles, réapparaissent périodiquement pour maintenir un équilibre dans l'environnement.</p>",
-        "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/spider.png",
-        "legend" : "Araignée Phidippus Regius animée"
-      },
-      {
-        "text" : "<p>Un réseau de neurones a été utilisé pour déterminer les actions des araignées, comme se déplacer, sauter et chasser. Ce système permet aux araignées de développer des stratégies de chasse efficaces au fil du temps. À chaque génération, seuls les meilleurs chasseurs, ceux qui ont capturé le plus de mouches, sont conservés pour la génération suivante. Ce processus d'évolution permet d'optimiser les comportements de chasse et de comprendre comment les compétences de prédation peuvent s'améliorer au fil des générations.</p> <p>On obtient la courbe proie-prédateur illustrant l'évolution des populations des araignées Phidippus Regius et des mouches au fil du temps. Cette courbe met en évidence les dynamiques oscillatoires typiques des interactions proie-prédateur, où les populations de mouches augmentent et diminuent en fonction de la pression de prédation des araignées, et inversement. Les pics de population des proies correspondent aux périodes de faible prédation, tandis que les populations de prédateurs augmentent suite à une abondance de proies disponibles, illustrant ainsi le cycle naturel de survie et de reproduction dans l'écosystème simulé.</p>",
-        "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/spiderData.png"
-      },
-      {
-        "videoLink" : "https://kilaposhi.github.io/GI_JSON/images/MultiAgent_Araignees.mp4",
-        "legend" : "Simulation du cycle proie prédateur"
-      },
-      {
-        "subtitle" : "Simulation de l'Attaque des Titans",
-        "text": "<p><em>L'Attaque des Titans</em> est un manga japonais écrit et illustré par Hajime Isayama. L'histoire se déroule dans un monde où l'humanité est au bord de l'extinction à cause de créatures gigantesques appelées Titans. Ces monstres humanoïdes dévorent les humains sans raison apparente, poussant les survivants à se réfugier derrière d'immenses murs protecteurs. <br> Dans notre simulation, nous modélisons le district de Shiganshina, où les civils et les soldats se trouvent à l'intérieur des murs, tandis que les Titans arrivent de l'extérieur pour attaquer. Voici les règles et les comportements des différents agents dans la simulation : <ul> <li><strong>Civils</strong> : Ils fuient s'ils aperçoivent un Titan. Leur objectif est de survivre en évitant les Titans et en cherchant refuge.</li> <li><strong>Soldats</strong> : Ils attaquent les Titans lorsqu'ils les voient. Leur mission est de défendre les civils et de repousser les Titans.</li> <li><strong>Titans</strong> : Ils détruisent tout sur leur passage. Cependant, s'ils voient un humain (civil ou soldat), ils les poursuivent pour les manger.</li> <li><strong>Eren</strong> : Lorsqu'il voit un Titan ennemi, Eren peut se transformer en Titan lui-même, devenant un puissant allié pour les humains.</li> <li><strong>Mikasa</strong> : Elle est plus forte et rapide que les autres soldats, ce qui lui permet de combattre les Titans plus efficacement.</li> </ul> Les résultats de la simulation dépendent de plusieurs facteurs, notamment les statistiques de vitesse et d'attaque des différents agents, ainsi que la proportion de Titans par rapport aux soldats. En ajustant ces paramètres, nous pouvons déterminer si l'humanité parvient à survivre ou non.</p> ",
-        "imageLink" : "https://kilaposhi.github.io/GI_JSON/images/snk.png",
-        "legend" : "Tome 1 de l'attaque des titans"
-      },
-      {
-        "videoLink" : "https://kilaposhi.github.io/GI_JSON/images/MultiAgent_AOT.mp4",
-        "legend" : "Simulation de l'attaque des titans"
-      }
-    ]
-  }
-]
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Détection de Formes par un Robot",
+      "description": "Les étudiants de la filière INES ont développé un système de détection de formes utilisant un robot TurtleBot équipé de divers capteurs.",
+      "imageUrl": "/projects/1/images/sy31Pres.png",
+      "tags": ["robotics", "computer vision", "TurtleBot"],
+      "startDate": "2024-08-17T00:00:00Z",
+      "endDate": null,
+      "members": [],
+      "sections": [
+        {
+          "title": "Introduction",
+          "content": "Les étudiants de la filière INES ont développé un système de détection de formes utilisant un robot TurtleBot équipé de divers capteurs."
+        },
+        {
+          "title": "Les Capteurs du TurtleBot",
+          "content": "Les robots comme notre TurtleBot utilisent divers capteurs pour fonctionner et se repérer dans l'espace. Ces capteurs incluent, entre autres, des lidars, des sonars, des caméras, et des roues crantées. Le lidar permet de mesurer les distances aux objets en envoyant des impulsions laser et en mesurant le temps de retour du signal. La caméra capture des images en temps réel, tandis que le sonar utilise des ondes sonores pour détecter des objets autour du robot. Ces capteurs travaillent ensemble pour essayer de fournir une vision complète de l'environnement du robot.",
+          "mediaUrls": ["/projects/1/images/turtleBot.png"]
+        },
+        {
+          "title": "Détection des Formes",
+          "content": "La détection des formes est réalisée en Python. Une image est composée de pixels, chacun ayant une valeur numérique représentant sa couleur. Pour chaque image de la vidéo capturée par la caméra du TurtleBot, nous filtrons les pixels selon leurs valeurs. Les pixels qui répondent aux critères sont affichés en blanc, tandis que les autres sont en noir, créant une image binarisée. Cette méthode permet de détecter des formes comme des cercles ou des rectangles sur l'image binarisée.",
+          "mediaUrls": ["/projects/1/images/binImage.png"]
+        },
+        {
+          "title": "Combinaison de la Détection de Formes et du Lidar",
+          "content": "Pour conclure, notre système peut détecter des formes spécifiques via les caméras du robot. Cependant, pour déterminer la taille réelle de l'objet et sa distance, nous utilisons un Lidar. Le Lidar mesure la distance en envoyant des impulsions laser et en mesurant le temps nécessaire pour que le signal revienne. Cela permet au TurtleBot de comprendre non seulement quelles formes il voit, mais aussi à quelle distance elles se trouvent. Voici un exemple de détection de panneaux de différentes tailles, où le robot utilise la caméra pour identifier la forme et le Lidar pour mesurer la distance.",
+          "mediaUrls": ["/projects/1/images/shapeDetec.png"]
+        },
+        {
+          "title": "Conclusion",
+          "content": "Les méthodes de détection de formes et de mesure de distance que nous avons utilisées pour ce projet sont également employées dans des domaines beaucoup plus complexes. Par exemple, les voitures autonomes utilisent des caméras et des lidars pour naviguer en toute sécurité dans la circulation, détecter les obstacles et comprendre leur environnement en temps réel. Ces technologies sont également cruciales dans des domaines tels que la robotique industrielle, où les robots doivent interagir précisément avec les objets, et dans la réalité augmentée, où la compréhension de l'espace et des formes permet des expériences immersives. Ce projet est donc une introduction passionnante à des technologies de pointe qui transforment notre monde."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Jeu du Kem's en Système Réparti",
+      "description": "À l'Université de Technologie de Compiègne (UTC), les étudiants réalisent divers projets pour appliquer les notions vues en cours. Les étudiants de la filière Ingénierie des Systèmes d'Information (ISI) ont développé, dans le cadre du cours de systèmes répartis, un jeu de Kem's.",
+      "imageUrl": "/projects/2/images/kemsBanner.png",
+      "tags": ["distributed systems", "game development", "ISI"],
+      "startDate": "2024-08-17T00:00:00Z",
+      "endDate": null,
+      "members": [],
+      "sections": [
+        {
+          "title": "Introduction",
+          "content": "À l'Université de Technologie de Compiègne (UTC), les étudiants réalisent divers projets pour appliquer les notions vues en cours. Les étudiants de la filière Ingénierie des Systèmes d'Information (ISI) ont développé, dans le cadre du cours de systèmes répartis, un jeu de Kem's."
+        },
+        {
+          "title": "Introduction aux Systèmes Répartis",
+          "content": "Une application d'un système réparti peut être vulgarisée comme un algorithme qui fonctionne sur plusieurs sites séparés géographiquement mais communiquant entre eux. Imaginez les armées romaines sur un front : pour que les différentes légions puissent fonctionner efficacement, elles doivent communiquer pour transmettre les ordres, demander des renforts et connaître l'état des troupes. De la même manière, un système réparti permet à plusieurs ordinateurs de collaborer pour accomplir une tâche commune tout en étant éloignés les uns des autres.",
+          "mediaUrls": ["/projects/2/images/campRomain.png"]
+        },
+        {
+          "title": "Systèmes Répartis et Fonctionnement d'Internet",
+          "content": "Les systèmes répartis sont essentiels pour le fonctionnement de l'internet. Chaque site web que vous visitez, chaque e-mail que vous envoyez, et chaque vidéo que vous regardez impliquent des ordinateurs qui travaillent ensemble à travers le monde. Les données sont envoyées et reçues de manière fiable grâce à des protocoles de communication sophistiqués. Cela permet à l'internet de fonctionner de manière fluide et efficace, même si les serveurs sont situés dans des endroits différents.",
+          "mediaUrls": ["/projects/2/images/internet.png"]
+        },
+        {
+          "title": "Implémentation du Jeu du Kem's en Système Réparti",
+          "content": "Nos étudiants ont mis en pratique ces notions complexes en développant un jeu du Kem's réparti. Le Kem's est un jeu de cartes où chaque joueur joue de manière spontanée, sans tours de jeu fixes. Une application répartie doit synchroniser les données partagées du jeu de cartes pour éviter les duplications de cartes ou les erreurs. Cela implique de gérer la communication entre les différentes instances de l'application sur plusieurs appareils, garantissant ainsi une expérience de jeu fluide et sans accroc.",
+          "mediaUrls": ["/projects/2/images/kemsInterface.png"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Simulation multi-agents",
+      "description": "La simulation multi-agents est une approche informatique permettant de modéliser et de simuler le comportement de plusieurs agents autonomes dans un environnement virtuel.",
+      "imageUrl": "/projects/3/images/multiAgentsBanner.png",
+      "tags": ["multi-agent systems", "simulation", "AI"],
+      "startDate": "2024-08-17T00:00:00Z",
+      "endDate": null,
+      "members": [],
+      "sections": [
+        {
+          "title": "Introduction",
+          "content": "La simulation multi-agents est une approche informatique permettant de modéliser et de simuler le comportement de plusieurs agents autonomes dans un environnement virtuel. Chaque agent, doté de caractéristiques spécifiques et de capacités d'interaction, évolue selon des règles définies pour atteindre des objectifs individuels ou collectifs. L'un des principaux enjeux de cette simulation est la synchronisation des agents, garantissant que les interactions et les événements se produisent de manière cohérente dans le temps. Cela permet de reproduire des phénomènes complexes comme les dynamiques de population, les stratégies de coopération ou de compétition, et d'étudier leur évolution dans un cadre contrôlé."
+        },
+        {
+          "title": "Système multi-agents et cycle proie-prédateur des Phidippus Regius",
+          "content": "Le Phidippus Regius, également connu sous le nom d'araignée sauteuse royale, est une espèce fascinante d'araignée reconnue pour ses couleurs vives et ses compétences impressionnantes en matière de saut. Dans notre système de simulation multi-agents, nous avons modélisé le cycle proie-prédateur des Phidippus Regius et des mouches. Les araignées, agissant comme prédateurs, doivent chasser et capturer des mouches pour survivre. Si une araignée ne mange pas dans un certain délai, elle finit par mourir de faim. Les mouches, quant à elles, réapparaissent périodiquement pour maintenir un équilibre dans l'environnement.",
+          "mediaUrls": ["/projects/3/images/spider.png", "/projects/3/images/spiderData.png"]
+        },
+        {
+          "title": "Réseau de neurones et évolution",
+          "content": "Un réseau de neurones a été utilisé pour déterminer les actions des araignées, comme se déplacer, sauter et chasser. Ce système permet aux araignées de développer des stratégies de chasse efficaces au fil du temps. À chaque génération, seuls les meilleurs chasseurs, ceux qui ont capturé le plus de mouches, sont conservés pour la génération suivante. Ce processus d'évolution permet d'optimiser les comportements de chasse et de comprendre comment les compétences de prédation peuvent s'améliorer au fil des générations.",
+          "mediaUrls": ["/projects/3/videos/MultiAgent_Araignees.mp4"]
+        },
+        {
+          "title": "Simulation de l'Attaque des Titans",
+          "content": "L'Attaque des Titans est un manga japonais écrit et illustré par Hajime Isayama. L'histoire se déroule dans un monde où l'humanité est au bord de l'extinction à cause de créatures gigantesques appelées Titans. Ces monstres humanoïdes dévorent les humains sans raison apparente, poussant les survivants à se réfugier derrière d'immenses murs protecteurs. Dans notre simulation, nous modélisons le district de Shiganshina, où les civils et les soldats se trouvent à l'intérieur des murs, tandis que les Titans arrivent de l'extérieur pour attaquer.",
+          "mediaUrls": ["/projects/3/images/snk.png", "/projects/3/videos/MultiAgent_AOT.mp4"]
+        }
+      ]
+    }
+  ]
+}
