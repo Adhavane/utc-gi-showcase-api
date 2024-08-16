@@ -7,7 +7,7 @@
       "imageUrl": "/projects/1/images/sy31Pres.png",
       "tags": ["robotics", "computer vision", "TurtleBot"],
       "startDate": "2024-08-17T00:00:00Z",
-      "endDate": null,
+      "endDate": "2024-08-20T00:00:00Z",
       "members": [],
       "sections": [
         {
@@ -42,7 +42,7 @@
       "imageUrl": "/projects/2/images/kemsBanner.png",
       "tags": ["distributed systems", "game development", "ISI"],
       "startDate": "2024-08-17T00:00:00Z",
-      "endDate": null,
+      "endDate": "2024-08-20T00:00:00Z",
       "members": [],
       "sections": [
         {
@@ -73,7 +73,7 @@
       "imageUrl": "/projects/3/images/multiAgentsBanner.png",
       "tags": ["multi-agent systems", "simulation", "AI"],
       "startDate": "2024-08-17T00:00:00Z",
-      "endDate": null,
+      "endDate": "2024-08-20T00:00:00Z",
       "members": [],
       "sections": [
         {
