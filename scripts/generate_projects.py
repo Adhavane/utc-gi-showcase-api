@@ -270,14 +270,18 @@ def main() -> None:
     # Check if directory is empty
     assert not os.listdir(TEST_DIR), "Directory is not empty"
 
+    # Create a new directory for projects
+    projects_dir: Path = TEST_DIR / "project"
+    projects_dir.mkdir()
+
     # Generate projects
     projects_file = TEST_DIR / "projects.json"
     with open(projects_file, "w") as fp_projects:
         fp_projects.write("[\n")
         for i, project in enumerate(generator):
             # Create a new file for each project
-            project_dir = TEST_DIR / str(project.id)
-            project_dir.mkdir(parents=True, exist_ok=True)
+            project_dir = projects_dir / project.id
+            project_dir.mkdir()
             project_file = project_dir / "project.json"
             with open(project_file, "w") as fp_project:
                 fp_project.write(project.to_json())
