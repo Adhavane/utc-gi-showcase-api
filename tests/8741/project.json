@@ -118,17 +118,13 @@
         },
         {
             "first_name": "Roy",
-            "last_name": "Jackson",
+            "last_name": "Jackson"
         },
         {
             "first_name": "Andrew",
             "last_name": "Cameron",
-            "email": "jennifer54@example.net",
+            "email": "jennifer54@example.net"
         }
     ],
-    "tags": [
-        "always",
-        "issue",
-        "word"
-    ]
+    "tags": ["always", "issue", "word"]
 }

@@ -56,21 +56,17 @@
         {
             "first_name": "Jessica",
             "last_name": "Elliott",
-            "email": "john32@example.org",
+            "email": "john32@example.org"
         },
         {
             "first_name": "Scott",
             "last_name": "Reynolds",
-            "email": "jamie05@example.com",
+            "email": "jamie05@example.com"
         },
         {
             "first_name": "Traci",
-            "last_name": "Cherry",
+            "last_name": "Cherry"
         }
     ],
-    "tags": [
-        "environment",
-        "easy",
-        "five"
-    ]
+    "tags": ["environment", "easy", "five"]
 }

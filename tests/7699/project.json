@@ -122,12 +122,12 @@
         },
         {
             "first_name": "Andrea",
-            "last_name": "Pearson",
+            "last_name": "Pearson"
         },
         {
             "first_name": "Kenneth",
             "last_name": "Sanchez",
-            "email": "vrobinson@example.com",
+            "email": "vrobinson@example.com"
         },
         {
             "first_name": "Jennifer",
@@ -142,9 +142,5 @@
             "phone_number": "422-795-8254x861"
         }
     ],
-    "tags": [
-        "industry",
-        "scene",
-        "today"
-    ]
+    "tags": ["industry", "scene", "today"]
 }

@@ -83,7 +83,7 @@
         {
             "first_name": "Brittany",
             "last_name": "Gilmore",
-            "email": "jessicafitzgerald@example.net",
+            "email": "jessicafitzgerald@example.net"
         },
         {
             "first_name": "Alejandro",
@@ -91,5 +91,5 @@
             "email": "udavis@example.net",
             "phone_number": "354.699.5921x995"
         }
-    ],
+    ]
 }
