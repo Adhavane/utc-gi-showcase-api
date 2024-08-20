@@ -1,0 +1,37 @@
+{
+  "id": "3",
+  "title": "Simulation multi-agents",
+  "description": "La simulation multi-agents est une approche informatique permettant de modéliser et de simuler le comportement de plusieurs agents autonomes dans un environnement virtuel.",
+  "imageUrl": "/projects/3/images/multiAgentsBanner.png",
+  "tags": ["multi-agent systems", "simulation", "AI"],
+  "startDate": "2024-08-17T00:00:00Z",
+  "endDate": "2024-08-20T00:00:00Z",
+  "members": [],
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": "La simulation multi-agents est une approche informatique permettant de modéliser et de simuler le comportement de plusieurs agents autonomes dans un environnement virtuel. Chaque agent, doté de caractéristiques spécifiques et de capacités d'interaction, évolue selon des règles définies pour atteindre des objectifs individuels ou collectifs. L'un des principaux enjeux de cette simulation est la synchronisation des agents, garantissant que les interactions et les événements se produisent de manière cohérente dans le temps. Cela permet de reproduire des phénomènes complexes comme les dynamiques de population, les stratégies de coopération ou de compétition, et d'étudier leur évolution dans un cadre contrôlé."
+    },
+    {
+      "title": "Système multi-agents et cycle proie-prédateur des Phidippus Regius",
+      "content": "Le Phidippus Regius, également connu sous le nom d'araignée sauteuse royale, est une espèce fascinante d'araignée reconnue pour ses couleurs vives et ses compétences impressionnantes en matière de saut. Dans notre système de simulation multi-agents, nous avons modélisé le cycle proie-prédateur des Phidippus Regius et des mouches. Les araignées, agissant comme prédateurs, doivent chasser et capturer des mouches pour survivre. Si une araignée ne mange pas dans un certain délai, elle finit par mourir de faim. Les mouches, quant à elles, réapparaissent périodiquement pour maintenir un équilibre dans l'environnement.",
+      "mediaUrls": [
+        "/projects/3/images/spider.png",
+        "/projects/3/images/spiderData.png"
+      ]
+    },
+    {
+      "title": "Réseau de neurones et évolution",
+      "content": "Un réseau de neurones a été utilisé pour déterminer les actions des araignées, comme se déplacer, sauter et chasser. Ce système permet aux araignées de développer des stratégies de chasse efficaces au fil du temps. À chaque génération, seuls les meilleurs chasseurs, ceux qui ont capturé le plus de mouches, sont conservés pour la génération suivante. Ce processus d'évolution permet d'optimiser les comportements de chasse et de comprendre comment les compétences de prédation peuvent s'améliorer au fil des générations.",
+      "mediaUrls": ["/projects/3/videos/MultiAgent_Araignees.mp4"]
+    },
+    {
+      "title": "Simulation de l'Attaque des Titans",
+      "content": "L'Attaque des Titans est un manga japonais écrit et illustré par Hajime Isayama. L'histoire se déroule dans un monde où l'humanité est au bord de l'extinction à cause de créatures gigantesques appelées Titans. Ces monstres humanoïdes dévorent les humains sans raison apparente, poussant les survivants à se réfugier derrière d'immenses murs protecteurs. Dans notre simulation, nous modélisons le district de Shiganshina, où les civils et les soldats se trouvent à l'intérieur des murs, tandis que les Titans arrivent de l'extérieur pour attaquer.",
+      "mediaUrls": [
+        "/projects/3/images/snk.png",
+        "/projects/3/videos/MultiAgent_AOT.mp4"
+      ]
+    }
+  ]
+}
