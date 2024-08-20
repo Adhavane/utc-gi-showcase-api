@@ -31,7 +31,7 @@ def jsonify(cls):
 
         serialized_data = json.dumps(to_dict(self), indent=4)
         # Remove lines with "null" values
-        # Be careful with
+        # This is useful for optional fields with None values
         serialized_data = "\n".join(
             [line for line in serialized_data.splitlines() if "null" not in line]
         )
@@ -162,7 +162,7 @@ class ProjectGenerator:
         )
 
         project = Project(
-            id=self.fake.unique.random_int(),
+            id=str(self.fake.unique.random_int()),
             title=self.fake.sentence(),
             description=self.fake.text(
                 max_nb_chars=random.randint(
